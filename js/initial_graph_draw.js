@@ -14,9 +14,8 @@
   });
 
   sigma.parsers.json('/project/data/graph.json', {
-      container: 'graph-container',
       renderer: {
-      	container: document.getElementById('graph-container'),
+      	container: 'graph-container',
       	type: 'canvas'
       },
     settings: {
@@ -77,5 +76,4 @@
         // Same as in the previous event:
         s.refresh();
       });
-    }
-  );
+    });

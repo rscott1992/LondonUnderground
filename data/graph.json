@@ -1,191 +1,185 @@
-[
-	{
-		"nodes": [
-			{
-				"_id":"Stations/1",
-				"label":"Bond Street",
-				"x" : "0",
-				"y" : "0",
-				"size" : "10"
-			},
-			{
-				"_id":"Stations/10",
-				"label":"Leicester Square",
-				"x" : "6",
-				"y" : "3",
-				"size" : "10" 
-			},
-			{
-				"_id":"Stations/11",
-				"label":"Covent Garden",
-				"x" : "9",
-				"y" : "3",
-				"size" : "10" 
-			},
-			{
-				"_id":"Stations/2",
-				"label":"Green Park",
-				"x" : "0",
-				"y" : "3",
-				"size" : "10" 
-			},
-			{
-				"_id":"Stations/3",
-				"label":"Chancey Lane",
-				"x" : "12",
-				"y" : "0",
-				"size" : "10" 
-			},
-			{
-				"_id":"Stations/4",
-				"label":"Oxford Circus",
-				"x" : "3",
-				"y" : "0",
-				"size" : "10" 
-			},
-			{
-				"_id":"Stations/5",
-				"label":"Victoria",
-				"x" : "0",
-				"y" : "6",
-				"size" : "10" 
-			},
-			{
-				"_id":"Stations/6",
-				"label":"Charring Cross",
-				"x" : "6",
-				"y" : "6",
-				"size" : "10" 
-			},
-			{
-				"_id":"Stations/7",
-				"label":"Tottenham Court Road",
-				"x" : "6",
-				"y" : "0",
-				"size" : "10" 
-			},
-			{
-				"_id":"Stations/8",
-				"label":"Holburn",
-				"x" : "9",
-				"y" : "0",
-				"size" : "10" 
-			},
-			{
-				"_id":"Stations/9",
-				"label":"Piccadilly Circus",
-				"x" : "3",
-				"y" : "3",
-				"size" : "10" 
-			} 
-		],
-		"edges": [
-			{
-				"_id" : "Lines/1",
-				"source" : "Stations/1",
-				"target" : "Stations/2",
-				// "lineColour" : "Grey",
-				"label" : "Jubilee Line"
-			},
-			{
-				"_id" : "Lines/2",
-				"source" : "Stations/1",
-				"target" : "Stations/4",
-				// "lineColour" : "Red",
-				"label" : "Central Line"
-			},
-			{
-				"_id" : "Lines/11",
-				"source" : "Stations/10",
-				"target" : "Stations/6",
-				// "lineColour" : "Black",
-				"label" : "Northern Line"
-			},
-			{
-				"_id" : "Lines/14",
-				"source" : "Stations/10",
-				"target" : "Stations/11",
-				"label" : "Piccadilly Line"
-				// "lineColour" : "Dark Blue"
-			},
-			{
-				"_id" : "Lines/15",
-				"source" : "Stations/11",
-				"target" : "Stations/8",
-				"label" : "Piccadilly Line"
-				// "lineColour" : "Dark Blue"	
-			},
-			{
-				"_id" : "Lines/3",
-				"source" : "Stations/4",
-				"target" : "Stations/7",
-				// "lineColour" : "Red",
-				"label" : "Central Line"
-			},
-			{
-				"_id" : "Lines/6",
-				"source" : "Stations/4",
-				"target" : "Stations/2",
-				"label" : "Victoria Line"
-				// "lineColour" : "Light Blue"	
-			},
-			{
-				"_id" : "Lines/8",
-				"source" : "Stations/4",
-				"target" : "Stations/9",
-				// "lineColour" : "Brown",
-				"label" : "Bakerloo Line"
-			},
-			{
-				"_id" : "Lines/9",
-				"source" : "Stations/9",
-				"target" : "Stations/6",
-				// "lineColour" : "Brown",
-				"label" : "Bakerloo Line"	
-			},
-			{
-				"_id" : "Lines/13",
-				"source" : "Stations/9",
-				"target" : "Stations/10",
-				"label" : "Piccadilly Line"
-				// "lineColour" : "Dark Blue"
-			},
-			{
-				"_id" : "Lines/12",
-				"source" : "Stations/2",
-				"target" : "Stations/9",
-				"label" : "Piccadilly Line"
-				// "lineColour" : "Dark Blue"
-			},
-			{
-				"_id" : "Lines/7",
-				"source" : "Stations/2",
-				"target" : "Stations/5",
-				"label" : "Victoria Line"
-				// "lineColour" : "Light Blue"
-			},
-			{
-				"_id" : "Lines/10",
-				"source" : "Stations/7",
-				"target" : "Stations/10",
-				// "lineColour" : "Black",
-				"label" : "Northern Line"
-			},
-			{
-				"_id" : "Lines/4",
-				"source" : "Stations/7",
-				"target" : "Stations/8",
-				// "lineColour" : "Red",
-				"label" : "Central Line"
-			},
-			{
-				"_id" : "Lines/5",
-				"source" : "Stations/8",
-				"target" : "Stations/3",
-				// "lineColour" : "Red",
-				"label" : "Central Line"
-			}
-		]
-	}
-	
-]
+{
+	"nodes": [
+		{
+			"id":"1",
+			"label":"Bond Street",
+			"x" : "0",
+			"y" : "0",
+			"size" : "10",
+			"color" : "rgb(255, 0, 0)"
+		},
+		{
+			"id":"10",
+			"label":"Leicester Square",
+			"x" : "6",
+			"y" : "3",
+			"size" : "10",
+			"color" : "rgb(0, 0, 0)" 
+		},
+		{
+			"id":"11",
+			"label":"Covent Garden",
+			"x" : "9",
+			"y" : "3",
+			"size" : "10",
+			"color" : "rgb(0, 0, 102)"  
+		},
+		{
+			"id":"2",
+			"label":"Green Park",
+			"x" : "0",
+			"y" : "3",
+			"size" : "10",
+			"color" : "rgb(102, 102, 102)" 
+		},
+		{
+			"id":"3",
+			"label":"Chancey Lane",
+			"x" : "12",
+			"y" : "0",
+			"size" : "10",
+			"color" : "rgb(255, 0, 0)"  
+		},
+		{
+			"id":"4",
+			"label":"Oxford Circus",
+			"x" : "3",
+			"y" : "0",
+			"size" : "10",
+			"color" : "rgb(0, 204, 255)"  
+		},
+		{
+			"id":"5",
+			"label":"Victoria",
+			"x" : "0",
+			"y" : "6",
+			"size" : "10",
+			"color" : "rgb(0, 204, 255)"  
+		},
+		{
+			"id":"6",
+			"label":"Charring Cross",
+			"x" : "6",
+			"y" : "6",
+			"size" : "10",
+			"color" : "rgb(153, 51, 0)"  
+		},
+		{
+			"id":"7",
+			"label":"Tottenham Court Road",
+			"x" : "6",
+			"y" : "0",
+			"size" : "10",
+			"color" : "rgb(255, 0, 0)" 
+		},
+		{
+			"id":"8",
+			"label":"Holburn",
+			"x" : "9",
+			"y" : "0",
+			"size" : "10",
+			"color" : "rgb(255, 0, 0)"  
+		},
+		{
+			"id":"9",
+			"label":"Piccadilly Circus",
+			"x" : "3",
+			"y" : "3",
+			"size" : "10",
+			"color" : "rgb(153, 51, 0)" 
+		} 
+	],
+	"edges": [
+		{
+			"id" : "1",
+			"source" : "1",
+			"target" : "2",
+			"label" : "Jubilee Line"
+		},
+		{
+			"id" : "2",
+			"source" : "1",
+			"target" : "4",
+			"label" : "Central Line"
+		},
+		{
+			"id" : "11",
+			"source" : "10",
+			"target" : "6",
+			"label" : "Northern Line"
+		},
+		{
+			"id" : "14",
+			"source" : "10",
+			"target" : "11",
+			"label" : "Piccadilly Line"
+		},
+		{
+			"id" : "15",
+			"source" : "11",
+			"target" : "8",
+			"label" : "Piccadilly Line"
+		},
+		{
+			"id" : "3",
+			"source" : "4",
+			"target" : "7",
+			"label" : "Central Line"
+		},
+		{
+			"id" : "6",
+			"source" : "4",
+			"target" : "2",
+			"label" : "Victoria Line"
+		},
+		{
+			"id" : "8",
+			"source" : "4",
+			"target" : "9",
+			"label" : "Bakerloo Line"
+		},
+		{
+			"id" : "9",
+			"source" : "9",
+			"target" : "6",
+			"label" : "Bakerloo Line"	
+		},
+		{
+			"id" : "13",
+			"source" : "9",
+			"target" : "10",
+			"label" : "Piccadilly Line"
+		},
+		{
+			"id" : "12",
+			"source" : "2",
+			"target" : "9",
+			"label" : "Piccadilly Line"
+		},
+		{
+			"id" : "7",
+			"source" : "2",
+			"target" : "5",
+			"label" : "Victoria Line"
+		},
+		{
+			"id" : "10",
+			"source" : "7",
+			"target" : "10",
+			"label" : "Northern Line"
+		},
+		{
+			"id" : "4",
+			"source" : "7",
+			"target" : "8",
+			"label" : "Central Line"
+		},
+		{
+			"id" : "5",
+			"source" : "8",
+			"target" : "3",
+			"label" : "Central Line"
+		}
+	]
+}
+

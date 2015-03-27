@@ -112,7 +112,7 @@
             <li><br></li>
             <li><input type='submit' value='Submit'></li>
         </div>
-        <div id = "container">
+        <div id="container">
           <div id="graph-container"></div>
         </div>    
       </div>

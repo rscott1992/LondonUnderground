@@ -1,0 +1,155 @@
+[
+	{
+		"nodes": [
+			{"_id":"Stations/1","_rev":"567748899","_key":"1","stationName":"Bond Street"},
+			{"_id":"Stations/10","_rev":"1057433891","_key":"10","stationName":"Leicester Square"},
+			{"_id":"Stations/11","_rev":"1062349091","_key":"11","stationName":"Covent Garden"},
+			{"_id":"Stations/2","_rev":"577972515","_key":"2","stationName":"Green Park"},
+			{"_id":"Stations/3","_rev":"597698851","_key":"3","stationName":"Chancey Lane"},
+			{"_id":"Stations/4","_rev":"608971043","_key":"4","stationName":"Oxford Circus"},
+			{"_id":"Stations/5","_rev":"617163043","_key":"5","stationName":"Victoria"},
+			{"_id":"Stations/6","_rev":"974137635","_key":"6","stationName":"Charring Cross"},
+			{"_id":"Stations/7","_rev":"1023486243","_key":"7","stationName":"Tottenham Court Road"},
+			{"_id":"Stations/8","_rev":"1044261155","_key":"8","stationName":"Holburn"},
+			{"_id":"Stations/9","_rev":"1050421539","_key":"9","stationName":"Piccadilly Circus"} 
+		],
+		"edges": [
+			{
+				"_id" : "Lines/1",
+				"_from" : "Stations/1",
+				"_to" : "Stations/2",
+				"_rev" : "1427843363",
+				"_key" : "1",
+				"lineColour" : "Grey",
+				"lineName" : "Jubilee Line"
+			},
+			{
+				"_id" : "Lines/2",
+				"_from" : "Stations/1",
+				"_to" : "Stations/4",
+				"_rev" : "1648568611",
+				"_key" : "2",
+				"lineColour" : "Red",
+				"lineName" : "Central Line"
+			},
+			{
+				"_id" : "Lines/11",
+				"_from" : "Stations/10",
+				"_to" : "Stations/6",
+				"_rev" : "18994571555",
+				"_key" : "11",
+				"lineColour" : "Black",
+				"lineName" : "Northern Line"
+			},
+			{
+				"_id" : "Lines/14",
+				"_from" : "Stations/10",
+				"_to" : "Stations/11",
+				"_rev" : "19019671843",
+				"_key" : "14",
+				"lineName" : "Piccadilly Lin
+				"lineColour" : "Dark Blue"
+			},
+			{
+				"_id" : "Lines/15",
+				"_from" : "Stations/11",
+				"_to" : "Stations/8",
+				"_rev" : "19026225443",
+				"_key" : "15",
+				"lineName" : "Piccadilly Lin
+				"lineColour" : "Dark Blue"	
+			},
+			{
+				"_id" : "Lines/3",
+				"_from" : "Stations/4",
+				"_to" : "Stations/7",
+				"_rev" : "1657415971",
+				"_key" : "3",
+				"lineColour" : "Red",
+				"lineName" : "Central Line"
+			},
+			{
+				"_id" : "Lines/6",
+				"_from" : "Stations/4",
+				"_to" : "Stations/2",
+				"_rev" : "18941356323",
+				"_key" : "6",
+				"lineName" : "Victoria Line"
+				"lineColour" : "Light Blue"	
+			},
+			{
+				"_id" : "Lines/8",
+				"_from" : "Stations/4",
+				"_to" : "Stations/9",
+				"_rev" : "18951514403",
+				"_key" : "8",
+				"lineColour" : "Brown",
+				"lineName" : "Bakerloo Line"
+			},
+			{
+				"_id" : "Lines/9",
+				"_from" : "Stations/9",
+				"_to" : "Stations/6",
+				"_rev" : "18960689443",
+				"_key" : "9",
+				"lineColour" : "Brown",
+				"lineName" : "Bakerloo Line"	
+			},
+			{
+				"_id" : "Lines/13",
+				"_from" : "Stations/9",
+				"_to" : "Stations/10",
+				"_rev" : "19012462883",
+				"_key" : "13",
+				"lineName" : "Piccadilly Lin
+				"lineColour" : "Dark Blue"
+			},
+			{
+				"_id" : "Lines/12",
+				"_from" : "Stations/2",
+				"_to" : "Stations/9",
+				"_rev" : "19003943203",
+				"_key" : "12",
+				"lineName" : "Piccadilly Lin
+				"lineColour" : "Dark Blue"
+			},
+			{
+				"_id" : "Lines/7",
+				"_from" : "Stations/2",
+				"_to" : "Stations/5",
+				"_rev" : "18945091875",
+				"_key" : "7",
+				"lineName" : "Victoria Line"
+				"lineColour" : "Light Blue"
+			},
+			{
+				"_id" : "Lines/10",
+				"_from" : "Stations/7",
+				"_to" : "Stations/10",
+				"_rev" : "18969405731",
+				"_key" : "10",
+				"lineColour" : "Black",
+				"lineName" : "Northern Line"
+			},
+			{
+				"_id" : "Lines/4",
+				"_from" : "Stations/7",
+				"_to" : "Stations/8",
+				"_rev" : "1683892515",
+				"_key" : "4",
+				"lineColour" : "Red",
+				"lineName" : "Central Line"
+			},
+			{
+				"_id" : "Lines/5",
+				"_from" : "Stations/8",
+				"_to" : "Stations/3",
+				"_rev" : "1705060643",
+				"_key" : "5",
+				"lineColour" : "Red",
+				"lineName" : "Central Line"
+			}
+		]
+	}
+	
+]
